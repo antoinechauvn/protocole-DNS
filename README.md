@@ -4,7 +4,8 @@ Approfondissement du protocole DNS
 ### Qu'est-ce que le protocole DNS?
 ```
 Le protocole et le système DNS permet de résoudre des noms en adresses IP.
-DNS est une sorte de service mondial de correspondance entre des noms et des adresses IP. DNS utilise principalement le port UDP 53.
+DNS est une sorte de service mondial de correspondance entre des noms et des adresses IP.
+DNS utilise principalement le port UDP 53.
 Plus précisément, DNS est un système d’interrogation de registre mondial.
 ```
 
@@ -32,3 +33,6 @@ La bases de données d’une zone (un domaine) peut comporter certains types d�
 * **NS** record ou name server record qui définit les serveurs DNS de ce domaine ;
 * **SOA** record ou Start Of Authority record qui donne les informations générales de la zone : serveur principal, courriel de contact, différentes durées dont celle d’expiration, numéro de série de la zone ;
 * **SRV** record qui généralise la notion de MX record, mais qui propose aussi des fonctionnalités avancées comme le taux de répartition de charge pour un service donné, standardisé dans la RFC 2782.
+
+### Hiérarchie des zones DNS et récursivité
+Les domaines se trouvant immédiatement sous la racine sont appelés domaine de premier niveau (TLD : Top Level Domain). Les noms de domaines ne correspondant pas à une extension de pays sont appelés des domaines génériques (gTLD), par exemple .org ou .com. S’ils correspondent à des codes de pays (fr, be, ch…), ce sont des domaines de premier niveau national, aussi appelés ccTLD de l’anglais country code TLD.
