@@ -35,4 +35,11 @@ La bases de données d’une zone (un domaine) peut comporter certains types d�
 * **SRV** record qui généralise la notion de MX record, mais qui propose aussi des fonctionnalités avancées comme le taux de répartition de charge pour un service donné, standardisé dans la RFC 2782.
 
 ### Hiérarchie des zones DNS et récursivité
-Les domaines se trouvant immédiatement sous la racine sont appelés domaine de premier niveau (TLD : Top Level Domain). Les noms de domaines ne correspondant pas à une extension de pays sont appelés des domaines génériques (gTLD), par exemple .org ou .com. S’ils correspondent à des codes de pays (fr, be, ch…), ce sont des domaines de premier niveau national, aussi appelés ccTLD de l’anglais country code TLD.
+Les domaines se trouvant immédiatement sous la racine sont appelés domaine de premier niveau (TLD : Top Level Domain).<br>
+Les noms de domaines ne correspondant pas à une extension de pays sont appelés des domaines génériques (gTLD), par exemple .org ou .com.<br>
+S’ils correspondent à des codes de pays (fr, be, ch…), ce sont des domaines de premier niveau national, aussi appelés ccTLD de l’anglais country code TLD.
+
+![image](https://user-images.githubusercontent.com/83721477/167363815-efc11d11-dc08-4110-a0a9-fed350741a4d.png)
+
+### Fully qualified Domain Name
+Un hôte DNS doit disposer d’un FQDN (“Fully qualified Domain Name”) soit un un nom de domaine écrit de façon absolue, y compris tous les domaines jusqu’au domaine de premier niveau (TLD); il est ponctué par un point final.
