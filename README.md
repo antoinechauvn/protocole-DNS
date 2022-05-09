@@ -24,11 +24,11 @@ Les modifications sont prises en compte directement. Il est présent dans la plu
 ### Enregistrements DNS
 La bases de données d’une zone (un domaine) peut comporter certains types d’enregistrements DNS comme par exemple :
 
-A record ou address record qui fait correspondre un nom d’hôte à une adresse IPv4 de 32 bits distribués sur quatre octets ex: 123.234.1.2 ;
-AAAA record ou IPv6 address record qui fait correspondre un nom d’hôte à une adresse IPv6 de 128 bits distribués sur seize octets ;
-CNAME record ou canonical name record qui permet de faire d’un domaine un alias vers un autre. Cet alias hérite de tous les sous-domaines de l’original ;
-MX record ou mail exchange record qui définit les serveurs de courriel pour ce domaine ;
-PTR record ou pointer record qui associe une adresse IP à un enregistrement de nom de domaine, aussi dit “reverse” puisqu’il fait exactement le contraire du A record ;
-NS record ou name server record qui définit les serveurs DNS de ce domaine ;
-SOA record ou Start Of Authority record qui donne les informations générales de la zone : serveur principal, courriel de contact, différentes durées dont celle d’expiration, numéro de série de la zone ;
-SRV record qui généralise la notion de MX record, mais qui propose aussi des fonctionnalités avancées comme le taux de répartition de charge pour un service donné, standardisé dans la RFC 2782.
+* A record ou address record qui fait correspondre un nom d’hôte à une adresse IPv4 de 32 bits distribués sur quatre octets ex: 123.234.1.2 ;
+* AAAA record ou IPv6 address record qui fait correspondre un nom d’hôte à une adresse IPv6 de 128 bits distribués sur seize octets ;
+* CNAME record ou canonical name record qui permet de faire d’un domaine un alias vers un autre. Cet alias hérite de tous les sous-domaines de l’original ;
+* MX record ou mail exchange record qui définit les serveurs de courriel pour ce domaine ;
+* PTR record ou pointer record qui associe une adresse IP à un enregistrement de nom de domaine, aussi dit “reverse” puisqu’il fait exactement le contraire du A record ;
+* NS record ou name server record qui définit les serveurs DNS de ce domaine ;
+* SOA record ou Start Of Authority record qui donne les informations générales de la zone : serveur principal, courriel de contact, différentes durées dont celle d’expiration, numéro de série de la zone ;
+* SRV record qui généralise la notion de MX record, mais qui propose aussi des fonctionnalités avancées comme le taux de répartition de charge pour un service donné, standardisé dans la RFC 2782.
